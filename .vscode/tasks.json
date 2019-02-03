@@ -3,8 +3,8 @@
     "type": "shell",
     "tasks": [
         {
-            "label": "watch",
-            "command": "${workspaceRoot}/node_modules/.bin/babel src --out-dir dist -w --source-maps",
+            "label": "build",
+            "command": "${workspaceRoot}/ src --out-dir dist -w --source-maps",
             "group": "build",
             "isBackground": true,
             "problemMatcher": []
