@@ -8,4 +8,8 @@ var person = {
 var x = person.age;
 var y = person['age'];
 
+var Name = person.name;
+
 document.write(x + "<br \/>" + y);
+
+document.write(Name);
